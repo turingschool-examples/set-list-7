@@ -34,7 +34,7 @@ Also, this tutorial is most useful going class-by-class, not necessarily done in
 
 | Class | Starting Branch | Completed Branch |
 |-------|------|------|
-|[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | [songs_index](https://github.com/turingschool-examples/set_list_tutorial/tree/songs_index)|
+|[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | [songs_index](https://github.com/turingschool-examples/set-list-7/tree/songs-index)|
 | [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | [songs_index](https://github.com/turingschool-examples/set_list_tutorial/tree/songs_index) | [songs_show](https://github.com/turingschool-examples/set_list_tutorial/tree/songs_show)|
 | [ActiveRecord Associations](https://www.youtube.com/watch?v=oOFUnTPC_jU) (homework video) | [songs_show](https://github.com/turingschool-examples/set_list_tutorial/tree/songs_show) | [artist_songs_index](https://github.com/turingschool-examples/set_list_tutorial/tree/artist_songs_index) |
 | [Feature Testing](https://backend.turing.edu/module2/lessons/feature_testing_2) | [feature_testing_practice](https://github.com/turingschool-examples/set_list_tutorial/tree/feature_testing_practice)  | [feature_testing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/feature_testing_solutions)
