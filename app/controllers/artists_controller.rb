@@ -7,8 +7,13 @@ class ArtistsController < ApplicationController
   end
 
   def create
-    artist = Artist.create(artist_params)
-    redirect_to "/artists"
+    artist = Artist.new(artist_params)
+    if artist.save
+      redirect_to '/artists'
+    else
+      flash[:notice] = "Artist not created: Required information missing."
+      render :new
+    end
   end
 
   def edit
@@ -16,9 +21,13 @@ class ArtistsController < ApplicationController
   end
 
   def update
-    artist = Artist.find(params[:id])
-    artist.update(artist_params)
-    redirect_to '/artists'
+    @artist = Artist.find(params[:id])
+    if @artist.update(artist_params)
+      redirect_to '/artists'
+    else
+      flash[:error] = @artist.errors.full_messages.to_sentence
+      render :edit
+    end
   end
 
   def destroy
