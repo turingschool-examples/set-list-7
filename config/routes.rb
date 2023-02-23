@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     resources :songs, only: [:index], controller: "artist_songs"
   end
 
-  resources :songs, only: [:index, :show]
+  resources :songs
 
   resources :playlists, only: [:index]
 end

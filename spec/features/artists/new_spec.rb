@@ -20,6 +20,7 @@ RSpec.describe 'the Artist creation' do
     visit new_artist_path
 
     fill_in('Name', with: 'Prince')
+
     click_button('Create Artist')
 
     expect(current_path).to eq("/artists")

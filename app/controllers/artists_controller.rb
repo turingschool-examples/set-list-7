@@ -4,6 +4,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    @artist = Artist.new
   end
 
   def create
@@ -18,6 +19,7 @@ class ArtistsController < ApplicationController
   def update
     artist = Artist.find(params[:id])
     artist.update(artist_params)
+
     redirect_to '/artists'
   end
 
@@ -29,6 +31,6 @@ class ArtistsController < ApplicationController
 
 private
   def artist_params
-    params.permit(:name)
+    params.require(:artist).permit(:name)
   end
 end
