@@ -49,6 +49,6 @@ Also, this tutorial is most useful going class-by-class, not necessarily done in
 | [Partials](https://backend.turing.edu/module2/lessons/partials) | [partials](https://github.com/turingschool-examples/set-list-7/tree/generic-start) | [partials_solutions](https://github.com/turingschool-examples/set-list-7/tree/partials-solutions)
 | [Advanced Routing](https://backend.turing.edu/module2/lessons/rails_resources) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [advanced_routing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing_solutions) |
 | [Grouping & Aggregating](https://backend.turing.edu/module2/lessons/grouping_and_aggregating) | `advanced_routing` (no completed branch) |
-| [Binding Models to Forms](https://backend.turing.edu/module2/lessons/form_with) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [binding_models_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/binding_models_solutions)
+| [Binding Models to Forms](https://backend.turing.edu/module2/lessons/form_with) | [advanced_routing](https://github.com/turingschool-examples/set-list-7/tree/advanced-routing-complete) | [binding_models_solutions](https://github.com/turingschool-examples/set-list-7/tree/form-with-complete)
 
 _Note: This table is always being updated. Please submit a pull request if something needs changed!_
