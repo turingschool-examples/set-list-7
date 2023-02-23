@@ -1,4 +1,4 @@
-require "rails_helper"
+require 'rails_helper'
 
 RSpec.describe "the Playlist index page" do
   it "should display all playlists" do
@@ -30,7 +30,7 @@ RSpec.describe "the Playlist index page" do
     # Creates a row in the playlist_songs table. Associates a playlist with a song
     r_and_c.playlists << rock
 
-    visit "/playlists"
+    visit playlists_path
 
     within("#playlist-#{rock.id}") do
       expect(page).to have_content(rock.name)
