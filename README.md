@@ -35,8 +35,8 @@ Also, this tutorial is most useful going class-by-class, not necessarily done in
 | Class | Starting Branch | Completed Branch |
 |-------|------|------|
 |[Songs Index](https://www.youtube.com/watch?v=At4fD_zkHJU) | none | [songs_index](https://github.com/turingschool-examples/set-list-7/tree/songs-index)|
-| [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | [songs_index](https://github.com/turingschool-examples/set-list-7/tree/songs-index) | [songs_show](https://github.com/turingschool-examples/set-list-7/tree/songs-show)|
-| [ActiveRecord Associations](https://www.youtube.com/watch?v=oOFUnTPC_jU) (homework video) | [songs_show](https://github.com/turingschool-examples/set-list-7/tree/songs-show) | [artist-songs-index](https://github.com/turingschool-examples/set-list-7/tree/artist-songs-index) |
+| [Songs Show](https://www.youtube.com/watch?v=oZGZEJWt8qQ) | [songs-index](https://github.com/turingschool-examples/set-list-7/tree/songs-index) | [songs-show](https://github.com/turingschool-examples/set-list-7/tree/songs-show)|
+| [ActiveRecord Associations](https://www.youtube.com/watch?v=oOFUnTPC_jU) (homework video) | [songs-show](https://github.com/turingschool-examples/set-list-7/tree/songs-show) | [artist-songs-index](https://github.com/turingschool-examples/set-list-7/tree/artist-songs-index) |
 | [Feature Testing](https://backend.turing.edu/module2/lessons/feature_testing_2) | [feature-testing-practice](https://github.com/turingschool-examples/set-list-7/tree/feature-testing-practice)  | [feature-testing-complete](https://github.com/turingschool-examples/set-list-7/tree/feature-testing-complete)
 | [ActiveRecord Associations](https://backend.turing.edu/module2/lessons/active_record_associations_tdd) (live class) | [associations-tdd-setup](https://github.com/turingschool-examples/set-list-7/tree/associations-tdd-setup) | [associations-practice-solutions](https://github.com/turingschool-examples/set-list-7/tree/associations-practice-solutions) |
 | [SQL and ActiveRecord](https://backend.turing.edu/module2/lessons/sql_and_active_record) | [sql-ar-setup](https://github.com/turingschool-examples/set-list-7/tree/sql-ar-setup) |
