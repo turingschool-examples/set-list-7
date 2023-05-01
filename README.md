@@ -1,5 +1,11 @@
 # SQL & AR Workshop
 
+## Setup
+```bash
+bundle install
+rails db:{drop,create,migrate,seed}
+```
+
 ## Warm Up
 
 Write a method that will return all Artists with Songs with at least 1,000,000 plays.
