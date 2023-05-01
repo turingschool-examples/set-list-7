@@ -48,8 +48,8 @@ Also, this tutorial is most useful going class-by-class, not necessarily done in
 | [Data Validations](https://backend.turing.edu/module2/lessons/data_validation) | [validations](https://github.com/turingschool-examples/set_list_tutorial/tree/validations) |
 | [Sad Path Testing & Flash Messages](https://backend.turing.edu/module2/lessons/sad_path_and_flash) | [sad_path_setup](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_setup) | [sad_path_complete](https://github.com/turingschool-examples/set_list_tutorial/tree/sad_path_complete)
 | [Partials](https://backend.turing.edu/module2/lessons/partials) | [partials](https://github.com/turingschool-examples/set-list-7/tree/generic-start) | [partials_solutions](https://github.com/turingschool-examples/set-list-7/tree/partials-solutions)
-| [Advanced Routing](https://backend.turing.edu/module2/lessons/rails_resources) | [advanced_routing](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing) | [advanced_routing_solutions](https://github.com/turingschool-examples/set_list_tutorial/tree/advanced_routing_solutions) |
-| [Grouping & Aggregating](https://backend.turing.edu/module2/lessons/grouping_and_aggregating) | `advanced_routing` (no completed branch) |
+| [Advanced Routing](https://backend.turing.edu/module2/lessons/rails_resources) | [advanced-routing](https://github.com/turingschool-examples/set-list-7/tree/advanced-routing) | [advanced-routing-solutions](https://github.com/turingschool-examples/set-list-7/tree/advanced-routing-solutions) |
+| [Grouping & Aggregating](https://backend.turing.edu/module2/lessons/grouping_and_aggregating) | `advanced-routing` (no completed branch) |
 | [Binding Models to Forms](https://backend.turing.edu/module2/lessons/form_with) | [advanced_routing](https://github.com/turingschool-examples/set-list-7/tree/advanced-routing-complete) | [binding_models_solutions](https://github.com/turingschool-examples/set-list-7/tree/form-with-complete)
 
 _Note: This table is always being updated. Please submit a pull request if something needs changed!_
