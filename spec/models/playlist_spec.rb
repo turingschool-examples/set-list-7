@@ -9,12 +9,25 @@ RSpec.describe Playlist, type: :model do
     before :each do
       test_data # check the `spec_helper` file to see which songs are in the Summer Rewind Playlist. 
     end
-    it "Get the names of all Artists from the Summer Rewind Playlist. " do
-      # Hint: Use the @summer_rewind playlist for this query. 
+    # Joins #1
+    describe "Join problem" do
+      it "Get a list of unique names for the artists that have songs with a length greater than 400. " do
+        query = Artist.joins(:songs).where("songs.length > 400").distinct.pluck("artists.name") # write your .joins query here! 
 
-      query = # write your JOIN query here!
+        expect(query.sort).to eq(["Caamp", "LCD Soundsystem", "Prince", "Run The Jewels"])
+      end
+    end
 
-      expect(query.sort).to eq(["Prince", "Billie Eilish"])
+
+    # Joins #2
+    describe "Spicy Join" do
+      xit "Get the names of all Artists from the Summer Rewind Playlist. " do
+        # Hint: Use the @summer_rewind playlist for this query. 
+
+        query = # write your .joins query here!
+
+        expect(query.sort).to eq(["Prince", "Billie Eilish"])
+      end
     end
   end
 
