@@ -7,7 +7,7 @@ RSpec.describe Playlist, type: :model do
   end
   describe "class methods" do
     before :each do
-      test_data # check the `spec_helper` file to see which songs are in the Summer Rewind Playlist. 
+      test_data # check the `spec_helper` file to see which songs are in which playlist. 
     end
     # Joins #1
     describe "Join problem" do
