@@ -12,7 +12,7 @@ RSpec.describe Playlist, type: :model do
     # Joins #1
     describe "Join problem" do
       it "Get a list of unique names for the artists that have songs with a length greater than 400. " do
-        query = Artist.joins(:songs).where("songs.length > 400").distinct.pluck("artists.name") # write your .joins query here! 
+        query = # write your .joins query here! 
 
         expect(query.sort).to eq(["Caamp", "LCD Soundsystem", "Prince", "Run The Jewels"])
       end
