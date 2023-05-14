@@ -17,7 +17,7 @@ Then, navigate to `spec/models/song_spec.rb`. Your task is to write AR queries a
 
 Next, let's try a Join! You may struggle with this at first, but that is ok. We'll go over this example in class. 
 
-Navigate to `spec/models/playlist_spec.rb`. Same as above - your task is to write a query (SQL or AR, or both for practice) that returns the names of all Artists from the Summer Rewind Playlist, using a `.joins` query.  
+Navigate to `spec/models/playlist_spec.rb`. Same as above - your task is to write a query (SQL or AR, or both for practice) that answers the prompts. Do only one prompt at a time. 
 
 The data you'll need to reference is in the `spec_helper.rb` file under the `test_data` method. 
 
