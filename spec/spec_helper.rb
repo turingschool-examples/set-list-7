@@ -14,12 +14,12 @@
 #
 
 def test_data
-  @prince = Artist.create!(name: 'Prince')
-  @rtj = Artist.create!(name: 'Run The Jewels')
-  @caamp = Artist.create!(name: 'Caamp')
-  @jgb = Artist.create!(name: 'Jerry Garcia Band')
-  @billie = Artist.create!(name: 'Billie Eilish')
-  @lcd = Artist.create!(name: 'LCD Soundsystem')
+  @prince = Artist.create!(name: 'Prince', grammy_winner: true)
+  @rtj = Artist.create!(name: 'Run The Jewels', grammy_winner: false)
+  @caamp = Artist.create!(name: 'Caamp', grammy_winner: false)
+  @jgb = Artist.create!(name: 'Jerry Garcia Band', grammy_winner: true)
+  @billie = Artist.create!(name: 'Billie Eilish', grammy_winner: false)
+  @lcd = Artist.create!(name: 'LCD Soundsystem', grammy_winner: true)
 
   @purple_rain = @prince.songs.create!(title: 'Purple Rain', length: 845, play_count: 8599)
   @beret = @prince.songs.create!(title: 'Raspberry Beret', length: 665, play_count: 99)

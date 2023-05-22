@@ -8,7 +8,7 @@ require "rails_helper"
 
 RSpec.describe "destroying an artist" do
   it "can delete the artist from the index page" do
-    artist = Artist.create(name: "Prince")
+    artist = Artist.create(name: "Prince", grammy_winner: true)
 
     visit "/artists"
 

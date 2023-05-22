@@ -3,12 +3,10 @@ require 'rails_helper'
 RSpec.describe Song, type: :model do
   it {should belong_to :artist}
 
-  # HOMEWORK SETUP INSTRUCTIONS
-  # First, make sure your bundle & database are up to date
-    # bundle install
-    # rails db:{drop,create,migrate,seed}
-
-  # Your task is to write AR queries and set them to the `query` variable in each test. When you run each test, your query should make the test pass. 
+  describe "validations" do
+    it { should validate_numericality_of :play_count }
+    it { should validate_length_of(:title), maximum: 100 }
+  end
 
   describe "class methods" do
     before :each do 

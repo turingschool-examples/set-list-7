@@ -22,6 +22,11 @@ RSpec.describe "the Artist creation" do
     fill_in("Name", with: "Prince")
     click_button("Create Artist")
 
+    # Note for Data Validations: this test will fail because the user can't generate a value for the grammy_winner field. How would we go about fixing this? 
+    # 2 things to consider: 
+    # - Should the user be able to control the value of this field? If so, maybe we should update our form. 
+    # - Should there be a default value for this "grammy_winner" field? If so, maybe we should include that either in our migrations or our model. 
+
     expect(current_path).to eq("/artists")
     expect(page).to have_content("Prince")
   end

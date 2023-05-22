@@ -11,7 +11,7 @@ require "rails_helper"
 
 RSpec.describe "the artist edit" do
   it "links to the edit page" do
-    artist = Artist.create!(name: "Prince")
+    artist = Artist.create!(name: "Prince", grammy_winner: true)
 
     visit "/artists"
 
@@ -21,7 +21,7 @@ RSpec.describe "the artist edit" do
   end
 
   it "can edit the artist" do
-    artist = Artist.create!(name: "Princ")
+    artist = Artist.create!(name: "Princ", grammy_winner: true)
 
     visit "/artists"
 

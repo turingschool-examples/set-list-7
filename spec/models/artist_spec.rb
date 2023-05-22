@@ -3,10 +3,14 @@ require "rails_helper"
 RSpec.describe Artist do
   it {should have_many :songs}
 
+  describe "validations" do
+    it { should validate_uniqueness_of :name }
+  end
+
   describe "instance methods" do
     describe "#average_song_length" do
       before :each do
-        @prince = Artist.create!(name: "Prince")
+        @prince = Artist.create!(name: "Prince", grammy_winner: true)
         @purple = @prince.songs.create!(title: "Purple Rain", length: 845, play_count: 8599)
         @beret = @prince.songs.create!(title: "Raspberry Beret", length: 664, play_count: 99)
         @other_song = @prince.songs.create!(title: "Another Prince Song", length: 1, play_count: 99)

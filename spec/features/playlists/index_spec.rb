@@ -2,9 +2,9 @@ require "rails_helper"
 
 RSpec.describe "the Playlist index page" do
   it "should display all playlists" do
-    talking_heads = Artist.create!(name: "Talking Heads")
-    jgb = Artist.create!(name: "Jerry Garcia Band")
-    prince = Artist.create!(name: "Prince")
+    talking_heads = Artist.create!(name: "Talking Heads", grammy_winner: false)
+    jgb = Artist.create!(name: "Jerry Garcia Band", grammy_winner: false)
+    prince = Artist.create!(name: "Prince", grammy_winner: true)
 
     place = talking_heads.songs.create!(title: "This Must Be The Place", length: 832, play_count: 83209)
     breadbox = jgb.songs.create!(title: "Aint No Bread in the Breadbox", length: 832, play_count: 83209)

@@ -5,6 +5,11 @@ RSpec.describe Playlist, type: :model do
     it { should have_many :playlist_songs}
     it { should have_many(:songs).through(:playlist_songs) }
   end
+
+  describe "validations" do
+    it { should validate_presence_of :name }
+  end
+
   describe "class methods" do
     before :each do
       test_data # check the `spec_helper` file to see which songs are in which Playlist. 
