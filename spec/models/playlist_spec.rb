@@ -7,12 +7,12 @@ RSpec.describe Playlist, type: :model do
   end
   describe "class methods" do
     before :each do
-      test_data # check the `spec_helper` file to see which songs are in the Summer Rewind Playlist. 
+      test_data # check the `spec_helper` file to see which songs are in which playlist. 
     end
     # Joins #1
     describe "Join problem" do
       it "Get a list of unique names for the artists that have songs with a length greater than 400. " do
-        query = Artist.joins(:songs).where("songs.length > 400").distinct.pluck("artists.name") # write your .joins query here! 
+        query = # write your .joins query here! 
 
         expect(query.sort).to eq(["Caamp", "LCD Soundsystem", "Prince", "Run The Jewels"])
       end
