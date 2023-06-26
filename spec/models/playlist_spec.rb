@@ -26,7 +26,7 @@ RSpec.describe Playlist, type: :model do
 
         query = query = Artist.joins(songs: :playlists).where("playlist_id = #{@summer_rewind.id}").pluck("artists.name")
 
-        expect(query.sort).to eq(["Prince", "Billie Eilish"])
+        expect(query.sort).to eq(["Prince", "Billie Eilish"].sort) # using .sort on both sides of this test because we don't care about the order of this query. 
       end
     end
   end
