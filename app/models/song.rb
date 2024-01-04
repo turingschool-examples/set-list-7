@@ -15,4 +15,8 @@ class Song < ApplicationRecord
   def other_artist_songs
     self.artist.songs.where.not(id: self.id)
   end
+
+  def self.song_count
+    self.count
+  end
 end
