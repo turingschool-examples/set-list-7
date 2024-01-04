@@ -53,3 +53,4 @@ Also, this tutorial is most useful going class-by-class, not necessarily done in
 | [Binding Models to Forms](https://backend.turing.edu/module2/lessons/form_with) | [advanced-routing-complete](https://github.com/turingschool-examples/set-list-7/tree/advanced-routing-complete) | [form-with-complete](https://github.com/turingschool-examples/set-list-7/tree/form-with-complete)
 
 _Note: This table is always being updated. Please submit a pull request if something needs changed!_
+
